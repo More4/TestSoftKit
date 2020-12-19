@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.wrapper .square {
+    flex-basis: 150px;
+    height: 150px;
+    margin-right: 25px;
+    border: 5px solid transparent;
+    transition: border 0.4s ease;
+    cursor: pointer;
+}
+
+.wrapper .square.blue {
+    background: #00f;
+}
+
+.wrapper .square.border {
+    border: 5px solid #ff0;
+}
+
+body .button {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.button .submit {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: #4f6dff;
+    color: #fff;
+    transition: background 0.4s ease;
+}
+
+.button .submit:hover {
+    background: #2245ff;
+}
